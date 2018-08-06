@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { menuStyles, pageContainerStyle, sectionStyle, suggestions } from '../styles.css'
+import { menuStyles, pageContainerStyle, sectionStyle, suggestions, stillConstructing } from '../styles.css'
 import { Link } from '@reach/router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -19,6 +19,8 @@ export default class IndividualImpact extends Component {
         >
           <FontAwesomeIcon icon='bars' />
         </Link>
+
+        <p className={ stillConstructing }>This part of the website is still under construction</p>
 
         <h1>Individual Impact</h1>
 

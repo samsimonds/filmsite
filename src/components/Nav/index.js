@@ -69,7 +69,7 @@ export default class Nav extends Component {
           href='#blog'
         >
           <div>
-            Blog
+            News
           </div>
         </a>
       ),
@@ -77,7 +77,7 @@ export default class Nav extends Component {
       contactLink = (
         <a
           className={ styles.contactLink }
-          href='mailto:ssimonds@conncoll.edu'
+          href='mailto:info@fromavalleyoftalol.com'
         >
           <div>
             Contact
