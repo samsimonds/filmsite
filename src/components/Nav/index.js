@@ -65,8 +65,10 @@ export default class Nav extends Component {
 
       blogLink = (
         <a
-        className={ styles.blogLink }
-          href='#blog'
+          className={ styles.blogLink }
+          href='https://medium.com/@fromavalleyoftalol'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <div>
             News
