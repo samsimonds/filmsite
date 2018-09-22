@@ -79,7 +79,7 @@ export default class Nav extends Component {
       contactLink = (
         <a
           className={ styles.contactLink }
-          href='mailto:info@fromavalleyoftalol.com'
+          href='ssimonds@conncoll.edu'
         >
           <div>
             Contact
